@@ -145,6 +145,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
   font-size: clamp(1.8rem, 6vw, 4rem);
+  font-style: italic;
 }
 
 .home-quote-name {
@@ -153,6 +154,7 @@ footer {
 
 .about-quote {
   font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
   font-weight: 200;
   font-size: clamp(2rem, 2.2vw, 1.2rem);
   padding: 50px;
@@ -161,6 +163,19 @@ footer {
 .about-quote-name {
   font-family: "Michroma";
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-h1 {
+  font-family: "Michroma";
+  margin-left: 20px;
+}
+
+.about-txt {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: clamp(2rem, 2.2vw, 1.2rem);
+  margin: 30px;
 }
 
 .footer-txt {
@@ -223,6 +238,19 @@ footer a {
   width: 55%;
 }
 
+.project-text h2 {
+  font-family: "Michroma";
+}
+
+.project-text p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
+.project-video {
+  max-width: 40vw;
+}
+
 @media (max-width: 700px) {
   .project-img,
   .project-text {
@@ -234,4 +262,46 @@ footer a {
 
 .ugh-text {
   margin-top: 10px;
+}
+
+.project-card {
+  display: table;
+  width: calc(100% - 40px);
+  margin: 20px;
+  padding: 16px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+}
+
+.card-text,
+.card-image {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.card-text {
+  width: 60%;
+  padding-right: 16px;
+}
+
+.card-image {
+  width: 40%;
+  text-align: right;
+}
+
+.card-image img {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  display: inline-block;
+}
+
+.card-text h2 {
+  font-family: "Michroma";
+}
+
+.card-text p {
+  font-family: Arial, Helvetica, sans-serif;
 }
