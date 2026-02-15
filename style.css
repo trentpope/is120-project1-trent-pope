@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  min-height: 100vw;
+  min-height: 100vh;
 }
 
 .logo-non-sticky {
@@ -133,6 +133,34 @@ main img {
 
 footer {
   background-color: black;
+}
+
+.home-quote,
+.home-quote-name {
+  margin-left: 2rem;
+  max-width: 50vw;
+}
+
+.home-quote {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: clamp(1.8rem, 6vw, 4rem);
+}
+
+.home-quote-name {
+  font-family: "Michroma";
+}
+
+.about-quote {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: clamp(2rem, 2.2vw, 1.2rem);
+  padding: 50px;
+}
+
+.about-quote-name {
+  font-family: "Michroma";
+  text-align: center;
 }
 
 .footer-txt {
